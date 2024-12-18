@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: sendgrid
+  output:
+    ansi:
+      enabled: ALWAYS
+  sendgrid:
+    api-key: ${SENDGRID_API_KEY}
