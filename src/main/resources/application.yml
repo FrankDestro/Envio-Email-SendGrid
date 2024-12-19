@@ -6,3 +6,6 @@ spring:
       enabled: ALWAYS
   sendgrid:
     api-key: ${SENDGRID_API_KEY}
+  profiles:
+    active:
+      - test
